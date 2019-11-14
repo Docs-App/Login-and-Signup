@@ -10,7 +10,7 @@ def Signup():
 
 	scr = Tk()
 	scr.title('Signup')
-	instruction = Label(scr, text='Please Enter new Credentials')
+	instruction = Label(scr, text='Please Enter new Details')
 	instruction.grid(row=0, column=0, sticky=E)
 
 	nameL = Label(scr, text='New Username: ')
@@ -80,7 +80,7 @@ def CheckLogin():
 		r.mainloop()
 	else:
 		r = Tk()	
-		r.title('D:')
+		r.title('Sorry!')
 		r.geometry('200x100')
 		rlbl = Label(r, text='\n[! Invalid Login')
 		rlbl.pack()
